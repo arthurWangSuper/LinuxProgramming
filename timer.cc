@@ -27,7 +27,7 @@ void init_sigaction(){
 
 void init_time(){
     struct itimerval val;
-    // 1秒后启用定时器
+    // 设置val
     val.it_value.tv_sec = 1;
     val.it_value.tv_usec = 0;
     //定时器间隔为1s
